@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>cloud-2022</artifactId>
+        <groupId>com.itjyh</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>cloud-jwt</artifactId>
+
+   <dependencies>
+       <!--eureka-client-->
+       <dependency>
+           <groupId>org.springframework.cloud</groupId>
+           <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+       </dependency>
+
+       <dependency>
+           <groupId>org.springframework.boot</groupId>
+           <artifactId>spring-boot-starter-web</artifactId>
+       </dependency>
+       <dependency>
+           <groupId>org.projectlombok</groupId>
+           <artifactId>lombok</artifactId>
+           <optional>true</optional>
+       </dependency>
+
+       <!--SpringSecurity启动器-->
+       <dependency>
+           <groupId>org.springframework.boot</groupId>
+           <artifactId>spring-boot-starter-security</artifactId>
+       </dependency>
+
+       <!--redis依赖-->
+       <dependency>
+           <groupId>org.springframework.boot</groupId>
+           <artifactId>spring-boot-starter-data-redis</artifactId>
+       </dependency>
+       <!--fastjson依赖-->
+       <dependency>
+           <groupId>com.alibaba</groupId>
+           <artifactId>fastjson</artifactId>
+           <version>1.2.33</version>
+       </dependency>
+<!--       &lt;!&ndash;jwt依赖&ndash;&gt;-->
+<!--       <dependency>-->
+<!--           <groupId>io.jsonwebtoken</groupId>-->
+<!--           <artifactId>jjwt</artifactId>-->
+<!--           <version>0.9.0</version>-->
+<!--       </dependency>-->
+
+       <!-- mysql连接器 -->
+       <dependency>
+           <groupId>mysql</groupId>
+           <artifactId>mysql-connector-java</artifactId>
+       </dependency>
+       <!-- Mybatis Plus -->
+       <dependency>
+           <groupId>com.baomidou</groupId>
+           <artifactId>mybatis-plus-boot-starter</artifactId>
+           <version>3.4.3</version>
+
+       </dependency>
+       <!-- druid -->
+       <dependency>
+           <groupId>com.alibaba</groupId>
+           <artifactId>druid-spring-boot-starter</artifactId>
+           <version>1.2.6</version>
+
+       </dependency>
+       <!-- jwt -->
+       <dependency>
+           <groupId>com.auth0</groupId>
+           <artifactId>java-jwt</artifactId>
+           <version>3.10.3</version>
+       </dependency>
+
+
+
+
+
+
+
+       <dependency>
+           <groupId>org.springframework.boot</groupId>
+           <artifactId>spring-boot-starter-test</artifactId>
+       </dependency>
+       <!--swagger集成-->
+       <dependency>
+           <groupId>com.github.xiaoymin</groupId>
+           <artifactId>knife4j-spring-boot-starter</artifactId>
+           <version>3.0.2</version>
+       </dependency>
+       <!-- swagger2.0集成 -->
+<!--       <dependency>-->
+<!--           <groupId>io.springfox</groupId>-->
+<!--           <artifactId>springfox-swagger2</artifactId>-->
+<!--           <version>3.0.0</version>-->
+<!--       </dependency>-->
+<!--       <dependency>-->
+<!--           <groupId>io.springfox</groupId>-->
+<!--           <artifactId>springfox-swagger-ui</artifactId>-->
+<!--           <version>3.0.0</version>-->
+<!--       </dependency>-->
+
+
+   </dependencies>
+
+</project>
